@@ -1,0 +1,110 @@
+body{
+   
+}
+.card{
+    margin-left: 3rem;
+    box-shadow: 0 2px 5px 0 hsl(216, 50%, 16%);
+    
+}
+.view {
+    position: relative;
+    width: 95%;  
+}
+
+.overlay {
+    margin-left: 7px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 87%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: cyan;
+    border-radius: 15px;
+  }
+  .icon {
+    color:  hsl(0, 0%, 100%);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .view:hover .overlay {
+    opacity: 0.8;
+    
+  } 
+
+  .row{
+    padding-top: 100px;
+}
+#rcorner{
+    border-radius: 15px;
+    background: hsl(215, 32%, 27%);
+}
+.card-body{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.title{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+.title:hover{
+    color:cyan;
+}
+.ETH{
+    color: cyan;
+    font-family: 'Outfit', sans-serif ;
+}
+
+.Equilibrium{
+    margin-top: 25px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 100%;
+    height: 150%;
+}
+
+.clock{
+    float: right;
+    font-family: 'Outfit', sans-serif ;
+}
+
+.name{
+    color:hsl(0, 0%, 100%) ;
+}
+.name:hover{
+    color:cyan;
+}
+.profile-pic{
+    width: 35px;
+}
+  .image {
+
+    width: 95%;
+    height: auto;
+  }
+
+  
+.profile{
+    margin-left: 20px;
+    font-family: 'Outfit', sans-serif ;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  
+#line{
+    color: hsl(0, 0%, 100%);
+}
