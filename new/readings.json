@@ -1,0 +1,40 @@
+{
+    "channel": {
+        "id": 1881202,
+        "name": "power consumption",
+        "latitude": "0.0",
+        "longitude": "0.0",
+        "field1": "current",
+        "field2": "voltage",
+        "created_at": "2022-10-03T06:29:13Z",
+        "updated_at": "2022-10-21T04:05:27Z",
+        "last_entry_id": 97
+     },
+    "feeds": [
+        {
+        "created_at": "2022-10-14T11:05:17Z",
+        "entry_id": 93,
+        "field2": "0.00000"
+        },
+        {
+        "created_at": "2022-10-14T11:05:41Z",
+        "entry_id": 94,
+        "field2": "0.00000"
+        },
+        {
+        "created_at": "2022-10-14T11:06:06Z",
+        "entry_id": 95,
+        "field2": "0.00000"
+        },
+        {
+        "created_at": "2022-10-14T11:06:30Z",
+        "entry_id": 96,
+        "field2": "0.00000"
+        },
+        {
+        "created_at": "2022-10-20T11:16:38Z",
+        "entry_id": 97,
+        "field2": null
+        }
+    ]
+    }

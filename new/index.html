@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript - read JSON from URL</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="mypanel"></div>
+
+    <script>
+    $.getJSON('https://api.thingspeak.com/channels/1881202/fields/2.json?results=5', function(data) {
+
+        var text = `
+                    Entry_id: ${feeds.entry_id}<br>`
+
+        $(".mypanel").html(text);
+    });
+    </script>
+
+</body>
+</html>
